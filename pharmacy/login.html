@@ -1,0 +1,131 @@
+<html>
+
+<head>
+
+ <link rel = "stylesheet" text="text/css" href="css/style.css">
+ <link rel = "stylesheet" text="text/css" href="css/admin.css">
+  <link rel="stylesheet" text="text/css" href="css/userp.css">
+  <link rel = "stylesheet" text = "text/css" href="css/eraa.css">
+   <link rel="stylesheet" text="text/css" href="css/foot.css">
+  
+
+ 
+ 
+<title>  Login </title>
+
+</head>
+
+<header class = "head">
+
+<img src = "images/logo1.png" class = "logo" width = "150px" height = "150px">
+
+
+<h4> Be Healthy Be Active <img src = "images/user3.png" class = "logo2" width = "40px" height = "40px"  >
+
+	<button  type="login" class="logButton">Admin </button>
+	<div class = "open">
+	Selling & Buying - (+94) 71 1304050<br>
+	(Monday - Friday : 9.30 am to 5.00 pm & Saturday 9.30 am to 1.00 pm)
+	</div>
+</h4>
+
+<h2> UNITED PHARMACY </h2>
+
+</header>
+
+<body>
+<div class = "back">
+			<ul type = "square" id="navi">
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="#"> Contact Us</a></li>
+				<li><a href="register.html"> Registraion</a></li>
+				<li><a href="#"> About Us</a></li>
+				
+					
+			</ul>
+
+
+</div>
+<div class="wrap">
+				<div class="search">
+				<form action = "index.php" method = "post">
+				<input type="text" class="searchTerm" placeholder="What are you looking for?">
+				<button type="submit" value = "" class="searchButton">
+				search
+				
+				</button>
+				</form>
+			   </div>
+			   </div>
+	<br>
+
+<form  name="loginForm" method="post"  action = "admin.html">
+
+<table width="405px" height="500px" align="center" id = "tab1" >
+
+<tr>
+<td colspan=2><center><font size=10><b>SING IN</b></font></center></td>
+
+
+
+<tr><div class="head2">
+<td class ="td1" >Empolyee name:</td>
+<td><input type="text" size=25 name="userid" placeholder="Eranda Aththanayaka"></td>
+</div>
+</tr>
+
+<tr>
+<td class ="td1">Password:</td>
+<td><input type="Password" size=25 name="pwd" ></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" value ="Login" ><!--onclick="return check(this.form)"-->   </td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+</div>
+	<div id = "p4">
+			<footer>
+			<hr class = "hor">
+				<p id = "para1">		
+				UNITED PHARMACY
+				<br>
+				Copyright@.........
+			
+				
+				</p>
+				
+				<div id = "foot">
+							<h2>Follow Us...<h2><br>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.jpg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><img src="img/twitter.jpg"/></a>
+                            <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.jpg"/></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.jpg"/></a>
+                        </div>
+					 
+				
+				
+			
+			</footer>
+			</div>
+	
+</body>
+</html>

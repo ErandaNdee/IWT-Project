@@ -1,0 +1,28 @@
+#section1{
+	 float: left;
+	   padding: 25px;
+  width: 30%;
+  height: 750px; /* only for demonstration, should be removed */
+  background: #ccc;
+ 
+
+	
+	
+}
+
+#section2{
+	 float: right;
+    padding: 25px;
+  width:50%;
+  background-color: #f1f1f1;
+  height: 750px; /* only for demonstration, should be removed */
+  margin-top : -0.75%;
+	
+}
+
+#l1{
+	 color : blue;
+	padding : 2%;
+	font-size : 17;
+  
+}

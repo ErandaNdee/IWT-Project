@@ -1,0 +1,124 @@
+
+#us1 li a
+{
+	
+	float: left;
+  display: inline;
+  color: #333;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  
+  
+}
+
+
+#im1
+{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+height:500px;
+ margin-left:200px;
+}
+
+#p1
+{
+	width : 50%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7e8e7+0,7db9e8+100 */
+background: #b7e8e7; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #b7e8e7 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #b7e8e7 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #b7e8e7 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7e8e7', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	float : left;
+	height:300px;
+}
+
+#p1 a {
+	
+	font-size:40px;
+}
+#p1 li
+{
+	font-size:30px;
+}
+
+
+
+#p2
+{
+	
+	
+	width : 40%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4e2a6+0,ede9b1+100 */
+background: #f4e2a6; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f4e2a6 0%, #ede9b1 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f4e2a6 0%,#ede9b1 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f4e2a6 0%,#ede9b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4e2a6', endColorstr='#ede9b1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	float : right;
+	height:300px;
+}
+
+
+
+#p2 li a
+{
+	font-size:30px;
+	text-decoration:none;
+}
+
+#im2
+{
+	float:left;
+	width:40%;
+	
+	margin-top:2%;
+	
+}
+
+#im3
+{
+	margin-top:2%;
+	float:right;
+	width:40%;
+	height:400px;
+	
+	
+	
+	
+}
+#us1 li a
+{
+	font-size:20px;
+	
+}
+
+
+.social
+{
+	height:40px;
+	width:40px;
+	float:right;
+	margin-right:20px;
+	padding-left:100px;
+	margin-top:-3.9%;
+	
+	padding:6px;
+	
+}
+
+#p3
+{
+
+	padding:0px;
+	
+	
+}
+
+

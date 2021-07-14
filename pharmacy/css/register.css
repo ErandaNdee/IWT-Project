@@ -1,0 +1,46 @@
+
+
+form{
+	font-size:20px;
+	width:50%;
+	font-family:italic;
+	text-align:left;
+	margin-left:300px;
+}
+#fn{
+	width :300px;
+	
+}
+#ln{
+	width :300px;
+	
+}
+#dob{
+	width :300px;
+	
+}
+#email{
+	width :300px;
+	
+}
+#pn{
+	width :300px;
+	
+}
+#pwd{
+	width :300px;
+	
+}
+#cpwd{
+	width :300px;
+	
+}
+#sub{
+	width : 100px;
+	color:blue;
+}
+#fo{
+	color:black;
+	border-style:solid;
+	
+}

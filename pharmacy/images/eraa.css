@@ -1,0 +1,29 @@
+body{
+	background-color:14CDC5;
+	margin:10px;
+	padding:50px;
+	
+}
+
+.img1{
+	display:inline-block;
+	margin-left:150px;
+	margin-right:auto;
+	
+}
+.head{
+	
+	font-size:20px;
+	text-align:center;
+}
+.img2{
+	display:block;
+	margin-left:500px;
+	margin-right:400px;
+	
+}
+
+.head1
+{	font-size:30px;
+	
+}

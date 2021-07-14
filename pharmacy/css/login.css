@@ -1,0 +1,68 @@
+body
+{
+background-image:url("../images/s.jpg");
+
+
+ 
+}
+.login
+{
+	height: 450px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	border: 2px solid white;
+	padding 15px;
+	margin-top: 10px;
+}
+#email
+{
+	width: 40%;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size:20px;
+	background: none;
+}
+#pwd
+{
+	width: 40%;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size:20px;
+	background: none;
+}
+#loginbtn
+{
+	width: 150px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	outline: 0;
+	font-family: serif;
+	font-size:20px;
+	background: none;
+	color: white;
+}
+#loginbtn:hover
+{
+	background: #9895cb;
+}
+
+::placeholder
+{
+	color:white;
+	
+}
+#fp
+{
+	font-family: serif;
+	color: white;
+}

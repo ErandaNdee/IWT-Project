@@ -1,0 +1,71 @@
+body
+{
+	background-image:url("../images/s.jpg");
+
+	
+	
+}
+
+
+#section1{
+	/*
+	   padding: 25px;
+margin-left:40%;
+  width: 25%;
+  height: 600px; 
+  background-image:url("../images/background8.jpg");
+	
+
+  border-radius: 5px 5px 5px 5px;
+	
+	 box-shadow: 5px 10px red;
+	 
+	 margin-top:10;
+	 opacity: 0.9;*/
+	 
+	 	margin: auto;
+	width: 25%;
+	height: 650px; 
+	color: white;
+	background: rgba(0,0,0,0.3);
+	border: 2px solid white;
+	padding: 15px;
+	
+}
+
+#section2{
+	 float: right;
+    padding: 25px;
+	width: 90%;
+
+  /* only for demonstration, should be removed */
+ /* background-image:url("../images/background11.jpg");*/
+
+	
+
+  border-radius: 15px 15px 15px 15px;
+		 margin-top:10;
+}
+
+table{
+	/* background-color:#f1f1f1;
+	/*border-style: solid;
+	border-width: medium;
+	 border-style: groove;*/
+	 box-shadow: 5px 10px black;
+	opacity: 0.9;
+	/*filter: alpha(opacity=60);*/
+	
+		 	margin: auto;
+
+	color: black;
+	background: rgba(0,0,0,0.3);
+	border: 2px solid white;
+	padding: 15px;
+	
+}
+
+tr:hover {
+	color:black;
+	font-weight:80px;
+}

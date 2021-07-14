@@ -1,0 +1,31 @@
+
+
+
+h1{
+	text-align:center;
+	}
+p{
+  text-align:left;
+}
+
+
+#section1{
+	 float: left;
+	   padding: 25px;
+  width: 50%;
+  height: 450px; /* only for demonstration, should be removed */
+  background: #ccc;
+	
+	
+	
+}
+
+#section2{
+	 float: right;
+    padding: 25px;
+  width: 42%;
+  background-color: #f1f1f1;
+  height: 450px; /* only for demonstration, should be removed */
+  margin-top : 0%;
+	
+}

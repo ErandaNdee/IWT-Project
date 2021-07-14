@@ -1,0 +1,131 @@
+<html>
+
+<head>
+
+ <link rel = "stylesheet" text="text/css" href="css/style.css">
+ <link rel = "stylesheet" text = "text/css" href = "css/register.css">
+  <link rel="stylesheet" text="text/css" href="css/foot.css">
+ <script src = "js/jss/register.js"></script>
+<title> Employee Registration </title>
+
+</head>
+
+<header class = "head">
+
+<img src = "images/logo1.png" class = "logo" width = "150px" height = "150px">
+
+
+<h4> Be Healthy Be Active <img src = "images/user3.png" class = "logo2" width = "40px" height = "40px"  >
+
+	<button  type="login" class="logButton">Login </button>
+	<div class = "open">
+	Selling & Buying - (+94) 71 1304050<br>
+	(Monday - Friday : 9.30 am to 5.00 pm & Saturday 9.30 am to 1.00 pm)
+	</div>
+</h4>
+
+<h2> UNITED PHARMACY </h2>
+
+</header>
+
+<body>
+<div class = "back">
+			<ul type = "square" id="navi">
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="ContactUS.html"> Contact Us</a></li>
+				<li><a href="register.html"> Registraion</a></li>
+				<li><a href="aboutus.html"> About Us</a></li>
+				
+					
+			</ul>
+
+
+</div>
+<div class="wrap">
+				<div class="search">
+				<form action = "index.php" method = "post">
+				<input type="text" class="searchTerm" placeholder="What are you looking for?">
+				<button type="submit" value = "" class="searchButton">
+				search
+				
+				</button>
+				</form>
+			   </div>
+			   </div>
+			   <br /><br />
+              
+			   <div align = center id ="fo">
+			   <form>
+			   <h2>REGISTRATION FORM</h2><br/>
+			   
+			   <label>First Name</label>
+			   <input type = "text" id = "fn" placeholder ="First Name" required pattern = ".*[a-zA-Z]"><br /><br />
+			   
+			   <label>Last Name</label>
+			   <input type = "text" id = "ln" placeholder =  "Last Name" required pattern = ".*[a-zA-Z]"><br /><br />
+			   
+			   <label>Date of Birth</label>
+			   <input type = "date" id = "dob"  required ><br /><br />
+			   
+			   <label>Gender</label>
+			   <input type = "radio" name = "gender" required>Male
+			   <input type = "radio" name = "gender" required>Female<br /><br />
+			   
+			   <label>E-mail Address</label>
+			   <input type = "text" id = "email" placeholder="e-mail" required pattern = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]+\.[a-z]{2,3}"><br /><br />
+			   
+			   <label>Phone Number</label>
+			   <input type = "text" id = "pn" placeholder="Phone Number" required pattern = "[0-9]{10}"><br /><br />
+			   
+			   <label>Password</label>
+			   <input type = "password" id = "pwd" placeholder="password" required pattern  ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}"></br /><br />
+			   
+			   <label>Re-Enter Password</label>
+			   <input type = "password" id = "cpwd" placeholder="Re-enter password"required pattern  ="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}"><br /><br />
+			   
+			   
+			   <input type = "checkbox" id = "ckb" onclick = "enablesubmit(),checkPassword()"  > I Agreed With Terms And Conditions<br /><br />
+			   <button type = "submit"  id = "sub" disabled>Submit</button>
+			   </form>
+			  </div>
+			   
+			   
+			   
+			   
+			   
+			<div id = "p4">
+			<footer>
+			<hr class = "hor">
+				<p id = "para1">		
+				UNITED PHARMACY
+				<br>
+				Copyright@.........
+			
+				
+				</p>
+				
+				<div id = "foot">
+							<h2>Follow Us...<h2><br>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.jpg"/></a>
+                            <a href="https://twitter.com/" target="_blank"><img src="img/twitter.jpg"/></a>
+                            <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.jpg"/></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.jpg"/></a>
+                        </div>
+					 
+				
+				
+			
+			</footer>
+			</div>	   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+
+</body>
+
+
+<html>
